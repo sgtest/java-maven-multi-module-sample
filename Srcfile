@@ -1,0 +1,5 @@
+{
+  "PreConfigCommands": [
+    "curl -Ls -o /tmp/mvn-install-fix.sh https://raw.githubusercontent.com/sourcegraph/srclib-java/97811f2768f7020875fabd972ec1368790b230c8/mvn-install-nodeps-errortolerant.bash && echo Running mvn fix script... && bash /tmp/mvn-install-fix.sh"
+  ]
+}
